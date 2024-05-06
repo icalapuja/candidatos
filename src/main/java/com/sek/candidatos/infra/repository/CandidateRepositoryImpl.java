@@ -5,7 +5,6 @@ import com.sek.candidatos.domain.repository.CandidateRepository;
 import com.sek.candidatos.infra.repository.db.CandidateJpaRepository;
 import org.springframework.stereotype.Repository;
 import java.util.List;
-import java.util.Optional;
 
 @Repository
 public class CandidateRepositoryImpl implements CandidateRepository {
